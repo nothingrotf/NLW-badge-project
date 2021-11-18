@@ -8,14 +8,15 @@ html,
 body {
   height: 100%;
   font-family: 'Roboto', sans-serif;
+  
 }
 
 body {
-
+  
   --blackMask: hsl(240, 6%, 13%);
   --black: hsl(240, 5%, 7%);
   --gray: hsl(240, 9%, 89%);
-
+  
   display: grid;
   place-items: center;
   -webkit-font-smoothing: antialiased;
@@ -34,6 +35,14 @@ main {
   margin-right: auto;
   text-align: center;
   color: var(--gray);
+}
+
+.holder {
+  display: none;
+}
+
+.break {
+  display: none;
 }
 
 .avatar {
