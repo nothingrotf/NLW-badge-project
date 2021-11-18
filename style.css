@@ -25,7 +25,7 @@ main {
   background: url(images/background.svg) no-repeat center/cover;
   width: 100vw;
   min-height: 812px;
-  height: 100vw;
+  height: 100vh;
 }
 
 .container {
@@ -33,7 +33,6 @@ main {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-
   color: var(--gray);
 }
 
@@ -99,8 +98,30 @@ ul {
     background-color: var(--black);
     width: 100vw;
     min-height: 820px;
-    height: 100vw;
+    height: 100vh;
   }
+
+  .holder {
+    display: flex;
+    justify-content: center;
+  }
+
+  .holder img {
+    position: absolute;
+    z-index: 1;
+  }
+
+
+  .break {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .break img {
+    position: absolute;
+    margin-top: 9.75rem;
+  }
+
 
   .section {
     width: 258px;
@@ -116,6 +137,8 @@ ul {
     max-width: none;
     width: 358px;
     height: 540px;
+
+    margin-top: 8.75rem;
 
     display: grid;
     justify-content: center;
